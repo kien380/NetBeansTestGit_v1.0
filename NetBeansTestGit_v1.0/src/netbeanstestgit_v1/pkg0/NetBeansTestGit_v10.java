@@ -17,8 +17,13 @@ public class NetBeansTestGit_v10 {
     public static void main(String[] args) {
         // TODO code application logic here
         System.out.println("Hế lô mí cưng <3");
-        quanque thanh = new quanque();
+      Khang k1 = new Khang();
+        
+        
+        System.out.println(k1.t + " Thanh is " + k1.thanh);        quanque thanh = new quanque();
         System.out.println(thanh.thanhPro + " " + thanh.khang);
+
     }
+    
     
 }
