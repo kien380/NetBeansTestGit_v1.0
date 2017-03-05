@@ -13,4 +13,6 @@ public class quanque {
     public static int thanhPro = 69;
     
     public static String khang = "co ho";
+    
+    
 }
