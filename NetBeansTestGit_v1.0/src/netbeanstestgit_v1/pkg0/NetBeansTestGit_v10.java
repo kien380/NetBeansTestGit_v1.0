@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package netbeanstestgit_v1.pkg0;
-
+import java.util.Date;
 /**
  *
  * @author Ken Huynh
@@ -20,10 +20,13 @@ public class NetBeansTestGit_v10 {
       Khang k1 = new Khang();
         
         
-        System.out.println(k1.t + " Thanh is " + k1.thanh);        quanque thanh = new quanque();
+        System.out.println(k1.t + " Thanh is " + k1.thanh);        
+        quanque thanh = new quanque();
         System.out.println(thanh.thanhPro + " " + thanh.khang);
+        
+        
 
     }
-    
+     
     
 }
