@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package btth_tuan_1;
+package netbeanstestgit_v1.pkg0;
 import java.util.*;
 /**
  *
