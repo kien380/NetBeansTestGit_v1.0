@@ -20,7 +20,8 @@ public class NetBeansTestGit_v10 {
       Khang k1 = new Khang();
         
         
-        System.out.println(k1.t + " Thanh is " + k1.thanh);        quanque thanh = new quanque();
+        System.out.println(k1.t + " Thanh is " + k1.thanh);        
+        quanque thanh = new quanque();
         System.out.println(thanh.thanhPro + " " + thanh.khang);
 
     }
