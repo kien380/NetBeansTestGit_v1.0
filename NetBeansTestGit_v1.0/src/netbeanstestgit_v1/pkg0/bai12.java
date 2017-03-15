@@ -9,7 +9,7 @@ import java.math.BigInteger;
 
 /**
  *
- * @author CongHua
+ * @author Cong
  */
 public class bai12 {
     private BigInteger A,B;
