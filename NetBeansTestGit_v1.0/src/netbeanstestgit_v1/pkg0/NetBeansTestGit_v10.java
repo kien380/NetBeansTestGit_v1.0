@@ -16,7 +16,7 @@ public class NetBeansTestGit_v10 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println("Hế lô mí cưng <3");
+        /*System.out.println("Hế lô mí cưng <3");
         Khang k1 = new Khang();
         
         
@@ -24,7 +24,7 @@ public class NetBeansTestGit_v10 {
         quanque thanh = new quanque();
         System.out.println(thanh.thanhPro + " " + thanh.khang);
         
-        
+        */
         
         /* 
         //------bài 13--------
@@ -50,6 +50,20 @@ public class NetBeansTestGit_v10 {
         
         //f
         data.CSearchx();
+        */
+        
+        /*         bài 12
+        bai12 a = new bai12();
+        a.Cong();
+        */
+        
+        
+        /*          bài 14
+        bai14 tg = new bai14();
+        
+        tg.taoTg();
+        
+        tg.VeTg();
         */
     }
 
