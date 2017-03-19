@@ -38,6 +38,8 @@ public class bai11 {
        /**System.out.println(sdf.format(d2)); */
        
        /**====Cau a====*/
+       
+       
        if (date1.getTimeInMillis()== date2.getTimeInMillis())
             System.out.println("Ngày a bằng ngày b");
        else if (date1.getTimeInMillis() < date2.getTimeInMillis())
@@ -45,26 +47,42 @@ public class bai11 {
        else
            System.out.println("ngày a lớn hơn ngày b");
        
-       /**====Cau b====*/
-       Calendar temp = date1;
-       temp.add(Calendar.DATE, 1);
        
-       Date tempdate =  temp.getTime();
+       
+       
+       
+       
+       /** ====Cau b==== */
+       
+//       Calendar temp1 = Calendar.getInstance(date1.getTimeZone());
+       
+       Calendar temp1 = (Calendar) date1.clone();
+       temp1.add(Calendar.DATE, 1);
+       Date tempdate1 =  temp1.getTime();
       
-       System.out.println("Ngày tiếp theo của a: " + sdf.format(tempdate));
+       System.out.println("Ngày tiếp theo của a: " + sdf.format(tempdate1));
        
-       /**====Cau c====*/
-       temp = date1;
-       temp.add(Calendar.DATE, -1);
+       /** ====Cau c==== */
        
-       tempdate =  temp.getTime();
+//        Calendar temp2 = Calendar.getInstance(date1.getTimeZone());
+       Calendar temp2 = (Calendar) date1.clone();
+       temp2.add(Calendar.DATE, -1);
+//       
+       
+       Date tempdate2 =  temp2.getTime();
       
-       System.out.println("Ngày trước đó của a: " + sdf.format(tempdate));
+       System.out.println("Ngày trước đó của a: " + sdf.format(tempdate2));
+       
        
        /**====Cau d====*/
+       
+       
        System.out.println("a là ngày " + date1.get(Calendar.DAY_OF_YEAR) + " của năm");
        
+       
        /**====Cau e====*/
+       
+       
        int num = date1.getActualMaximum(Calendar.DAY_OF_MONTH);
        System.out.println("Tháng chứa a có " + num + "  ngày");
        
