@@ -14,6 +14,18 @@ import java.util.*;
 public class bai13 {
     private int[] A, B, C;
     
+    public bai13() {
+        NhapA();
+        XuatA();
+        TaoMangB_rd();
+        XuatB_toString();
+        TaoMangC();
+        XuatC();
+        Ccopy3B();
+        Csort();
+        CSearchx();
+    }
+    
     public void NhapA(){
         Scanner in = new Scanner(System.in);
         

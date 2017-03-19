@@ -9,7 +9,7 @@ import java.math.BigInteger;
 
 /**
  *
- * @author Cong
+ * @author CongHua
  */
 public class bai12 {
     private BigInteger A,B;
@@ -17,6 +17,7 @@ public class bai12 {
     public bai12() {
         A = new BigInteger("1234567890");
         B = new BigInteger("9876654321");
+        Cong();
     }
     
     public void Cong() {

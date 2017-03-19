@@ -14,6 +14,8 @@ public class bai14 {
 
     public bai14() {
         tg = new int[7][7];
+        taoTg();
+        VeTg();
     }
     
     public void taoTg() {
