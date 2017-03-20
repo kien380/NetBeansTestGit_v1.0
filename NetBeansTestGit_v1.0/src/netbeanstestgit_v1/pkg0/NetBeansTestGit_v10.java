@@ -16,8 +16,8 @@ public class NetBeansTestGit_v10 {
      * @param args the command line arguments
      */
     public static void main(String[] args) throws ParseException {  
-//        //---- Bài 11 ----
-//        bai11 b11 = new bai11();
+        //---- Bài 11 ----
+        bai11 b11 = new bai11();
         
 //        //---- Bài 12 ----
 //        bai12 b12 = new bai12();
